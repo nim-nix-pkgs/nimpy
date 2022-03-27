@@ -11,6 +11,7 @@
   inputs.src-nimpy-master.ref   = "refs/heads/master";
   inputs.src-nimpy-master.owner = "yglukhov";
   inputs.src-nimpy-master.repo  = "nimpy";
+  inputs.src-nimpy-master.dir   = "";
   inputs.src-nimpy-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
